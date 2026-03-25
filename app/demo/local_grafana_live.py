@@ -11,10 +11,10 @@ from dotenv import load_dotenv
 
 load_dotenv(override=False)
 
-from app.agent.tools.clients.grafana import get_grafana_client_from_credentials  # noqa: E402
 from app.agent.nodes.publish_findings.node import generate_report  # noqa: E402
 from app.agent.nodes.root_cause_diagnosis.node import diagnose_root_cause  # noqa: E402
 from app.agent.state import InvestigationState, make_initial_state  # noqa: E402
+from app.agent.tools.clients.grafana import get_grafana_client_from_credentials  # noqa: E402
 from app.agent.tools.tool_actions.grafana.grafana_actions import (  # noqa: E402
     query_grafana_logs,
     query_grafana_service_names,
