@@ -733,6 +733,13 @@ Thanks goes to these amazing people:
             <sub><b>Maharshi-Project</b></sub>
         </a>
     </td>
+            <td align="center">
+        <a href="https://github.com/udit-rawat">
+            <img src="https://avatars.githubusercontent.com/u/84604012?v=4" width="100" alt="udit-rawat"/>
+            <br />
+            <sub><b>udit-rawat</b></sub>
+        </a>
+    </td>
 		</tr>
 	</tbody>
 </table>
